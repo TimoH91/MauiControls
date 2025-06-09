@@ -11,7 +11,8 @@
                    TextTransform="Lowercase" />
 
 
-            <Label Text="Este é um texto HTML &lt;strong style=&quot;color:red"
+            <Label Text="Este é um texto HTML c:\projects\mauicontrols\mauicontrols\app.xaml.cs
+&lt;strong style=&quot;color:red"
                    FontSize="Large"
                    TextColor="Black" 
                    BackgroundColor="Yellow"
