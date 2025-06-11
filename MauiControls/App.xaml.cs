@@ -10,8 +10,9 @@ namespace MauiControls
 
             NavigationPage navPage1 = new NavigationPage(new MauiPresentationControls());
             NavigationPage navPage2 = new NavigationPage(new MauiCommandControls());
-
-            MainPage = new NavigationPage(new MauiSetValueControls());
+            NavigationPage navPage3 = new NavigationPage(new MauiSetValueControls());
+            
+            MainPage = new NavigationPage(new MauiEditControls());
         }
     }
 }
