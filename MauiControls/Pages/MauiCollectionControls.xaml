@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiControls.Pages.MauiCollectionControls"
+             Title="MauiCollectionControls">
+
+    <!--<ScrollView>-->
+        <VerticalStackLayout>
+
+        <TableView Intent="Menu">
+            <TableRoot>
+                <TableSection Title="Acessórios">
+                    <SwitchCell Text="Ar condicionado Digital"
+                      On="True"></SwitchCell>
+                    <SwitchCell Text="10000cc"></SwitchCell>
+                    <SwitchCell x:Name="AlertaCinto" Text="Alerta Cinto de Segurança" OnChanged="AlertaCinto_OnChanged"></SwitchCell>
+                    <EntryCell Placeholder="Informe o seu nome"></EntryCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <Button x:Name="btnProximo" Text="Avançar"
+                    VerticalOptions="End"></Button>
+
+
+
+
+
+        <!--<TableView Intent="Menu">
+            <TableRoot>
+                <TableSection Title="Capítulos">
+                    <TextCell Text="1. Introdução ao .NET MAUI"
+                              Detail="Aprenda os recursos do .NET MAUI"/>
+                    <TextCell Text="2. Introdução ao .NET MAUI"
+                             Detail="Aprenda os recursos do .NET MAUI"/>
+                    <TextCell Text="3. Introdução ao .NET MAUI"
+                             Detail="Aprenda os recursos do .NET MAUI"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>-->  
+            
+            
+            
+            
+            
+        <!--<Picker x:Name="Picker"
+                    Title="Selecione uma cidade">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>São Paulo</x:String>
+                    <x:String>São Paulo</x:String>
+                    <x:String>São Paulo</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>-->
+                    
+            
+            
+            
+            
+            <!--<CollectionView x:Name="collectionViewFotos"
+                            ItemsSource="{Binding Fotos}"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            SelectionMode="Multiple"
+                            Margin="10">
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2"/>
+                </CollectionView.ItemsLayout>
+                
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10">
+                            <Frame CornerRadius="5"
+                               Margin="10"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+
+                                    <Image Source="{Binding ImagemUrl}"
+                                       Aspect="AspectFill"
+                                       WidthRequest="100"
+                                       HeightRequest="100"
+                                       VerticalOptions="Center" />
+
+                                    <Label Text="{Binding Nome}"
+                                           FontSize="Medium"
+                                           HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>-->
+
+
+
+
+
+
+            <!--<ListView x:Name="listViewFotos"
+                  SeparatorColor="White"
+                      SelectionMode="Single"
+                  SeparatorVisibility="Default"
+                  ItemsSource="{Binding Fotos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Nome}"
+                               ImageSource="{Binding ImagemUrl}"
+                               TextColor="Black"/>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+
+
+            <!--<Label Margin="10,10,10,10" Text="Galáxias"
+           FontSize="Medium" />
+        
+        
+        <CarouselView ItemsSource="{Binding Fotos}"
+                      IndicatorView="indicatorView"
+                      CurrentItemChanged="CarouselView_CurrentItemChanged">
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"/>
+            </CarouselView.ItemsLayout>
+                   
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame CornerRadius="5"
+                               Margin="10"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand">
+                        <StackLayout>
+                            <Image Source="{Binding ImagemUrl}"
+                               Aspect="AspectFill"
+                               HeightRequest="400"
+                               WidthRequest="400"/>
+                            <Label Text="{Binding Nome}"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"/>
+                        </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <IndicatorView x:Name="indicatorView"
+                       IndicatorColor="Gray"
+                       IndicatorSize="20"
+                       IndicatorsShape="Square"
+                       VerticalOptions="Center"
+                       HorizontalOptions="CenterAndExpand"
+                       SelectedIndicatorColor="Blue"/>-->
+
+        </VerticalStackLayout>
+    <!--</ScrollView>-->
+</ContentPage>
